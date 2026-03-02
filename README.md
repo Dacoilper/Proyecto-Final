@@ -70,7 +70,7 @@ En la dificultad Difícil, los multiplicadores aparecen con menor frecuencia y l
 
 ---
 
-##Comida del sistema
+## Comida del sistema
 
 La comida se representa mediante un cuadro de color rojo. Cada vez que el sistema interactúa con la comida, el Snake crece y el puntaje aumenta en una unidad.
 
