@@ -1,5 +1,4 @@
 # EL IMPACTO DE LAS NUEVAS TECNOLOGÍAS EN LA SOCIEDAD: VISUALIZACIÓN DEL FUTURO
-Proyecto Integrador
 
 Nombre del estudiante: Oswaldo Villarreal  
 Materia: Lógica de Programación 2  
@@ -43,6 +42,8 @@ while corriendo:
 
 Este fragmento permite mantener el programa en ejecución y gestionar los eventos del sistema.
 
+---
+
 Dificultades del simulador
 
 El programa cuenta con tres niveles de dificultad, cada uno representando un contexto social distinto. La dificultad se selecciona antes de iniciar la simulación y modifica la frecuencia de aparición de multiplicadores y riesgos, así como el color del entorno.
@@ -61,11 +62,14 @@ ESCENARIOS = {
     }
 }
 
+
 En la dificultad Fácil, los multiplicadores aparecen con mayor frecuencia y los riesgos son menos comunes. El fondo del escenario es de color rojo pastel.
 
 En la dificultad Medio, existe un equilibrio entre beneficios y riesgos. El fondo del escenario es de color morado pastel.
 
 En la dificultad Difícil, los multiplicadores aparecen con menor frecuencia y los riesgos son más comunes. El fondo del escenario es de color azul pastel.
+
+---
 
 Comida del sistema
 
@@ -86,6 +90,8 @@ if multiplicador is not None and cabeza_nueva == multiplicador:
 
 Cada multiplicador recogido se registra como un evento positivo dentro de la simulación.
 
+---
+
 Riesgos sociales
 
 Los riesgos sociales se representan mediante obstáculos de color gris que aparecen de forma dinámica en el entorno. Estos riesgos tienen una duración limitada y desaparecen automáticamente después de cierto tiempo, evitando que el sistema se vuelva injusto o imposible de completar.
@@ -95,6 +101,8 @@ El control de la duración de los riesgos se realiza mediante el uso del tiempo:
 riesgos = [r for r in riesgos if ahora - r["t"] < DURACION_RIESGO]
 
 Si el sistema entra en contacto con un riesgo, la simulación finaliza, representando el impacto negativo de una mala gestión tecnológica.
+
+---
 
 Métricas registradas
 
@@ -124,17 +132,25 @@ writer.writerow([
 
 Estas métricas permiten realizar comparaciones entre escenarios y analizar el comportamiento del sistema bajo distintas condiciones.
 
+---
+
 Requisitos del sistema
 
 Para ejecutar el proyecto se requiere Python 3 y la librería pygame-ce instalada en un entorno virtual.
+
+---
 
 Resultados y análisis
 
 Los resultados obtenidos muestran que el impacto de la tecnología depende directamente del contexto social en el que se implementa. En escenarios más controlados, los beneficios predominan, mientras que en escenarios más complejos los riesgos limitan el crecimiento del sistema.
 
+---
+
 Conclusiones
 
 El simulador permite comprender de forma práctica cómo la adopción de nuevas tecnologías puede generar distintos efectos en la sociedad. Una implementación responsable maximiza los beneficios, mientras que una falta de regulación incrementa los riesgos.
+
+---
 
 Limitaciones
 
