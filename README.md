@@ -43,7 +43,7 @@ Este fragmento permite mantener el programa en ejecución y gestionar los evento
 
 ---
 
-Dificultades del simulador
+## Dificultades del simulador
 
 El programa cuenta con tres niveles de dificultad, cada uno representando un contexto social distinto. La dificultad se selecciona antes de iniciar la simulación y modifica la frecuencia de aparición de multiplicadores y riesgos, así como el color del entorno.
 
@@ -70,13 +70,15 @@ En la dificultad Difícil, los multiplicadores aparecen con menor frecuencia y l
 
 ---
 
-Comida del sistema
+##Comida del sistema
 
 La comida se representa mediante un cuadro de color rojo. Cada vez que el sistema interactúa con la comida, el Snake crece y el puntaje aumenta en una unidad.
 
 Este elemento representa el crecimiento básico y constante del sistema.
 
-Multiplicadores
+---
+
+## Multiplicadores
 
 Los multiplicadores se representan mediante cuadros de color azul que aparecen de forma periódica durante la simulación. Al interactuar con ellos, el sistema obtiene un aumento adicional en el puntaje según la dificultad seleccionada.
 
@@ -91,7 +93,7 @@ Cada multiplicador recogido se registra como un evento positivo dentro de la sim
 
 ---
 
-Riesgos sociales
+## Riesgos sociales
 
 Los riesgos sociales se representan mediante obstáculos de color gris que aparecen de forma dinámica en el entorno. Estos riesgos tienen una duración limitada y desaparecen automáticamente después de cierto tiempo, evitando que el sistema se vuelva injusto o imposible de completar.
 
@@ -103,7 +105,7 @@ Si el sistema entra en contacto con un riesgo, la simulación finaliza, represen
 
 ---
 
-Métricas registradas
+## Métricas registradas
 
 Al finalizar cada partida, el programa guarda automáticamente información relevante de la simulación en un archivo CSV ubicado en la carpeta data.
 
@@ -133,25 +135,25 @@ Estas métricas permiten realizar comparaciones entre escenarios y analizar el c
 
 ---
 
-Requisitos del sistema
+## Requisitos del sistema
 
 Para ejecutar el proyecto se requiere Python 3 y la librería pygame-ce instalada en un entorno virtual.
 
 ---
 
-Resultados y análisis
+## Resultados y análisis
 
 Los resultados obtenidos muestran que el impacto de la tecnología depende directamente del contexto social en el que se implementa. En escenarios más controlados, los beneficios predominan, mientras que en escenarios más complejos los riesgos limitan el crecimiento del sistema.
 
 ---
 
-Conclusiones
+## Conclusiones
 
 El simulador permite comprender de forma práctica cómo la adopción de nuevas tecnologías puede generar distintos efectos en la sociedad. Una implementación responsable maximiza los beneficios, mientras que una falta de regulación incrementa los riesgos.
 
 ---
 
-Limitaciones
+## Limitaciones
 
 El simulador utiliza modelos simplificados y no representa datos reales ni predicciones exactas. Los resultados deben interpretarse únicamente con fines educativos.
 
