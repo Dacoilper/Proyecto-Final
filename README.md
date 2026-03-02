@@ -34,7 +34,6 @@ El programa se estructura a partir de un bucle principal que controla el estado 
 
 Ejemplo del bucle principal del programa:
 
-```python
 while corriendo:
     for evento in pygame.event.get():
         if evento.type == pygame.QUIT:
